@@ -2,3 +2,85 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* select the H1 tag 
+change the color to red  */
+h1 {
+  color: red;
+}
+
+/* select the paragraph tag 
+change the color to blue  */
+p {
+  color: blue;
+}
+
+/* group all h1 and p tags 
+change the color to purple  */
+
+h1,
+p {
+  color: purple;
+}
+
+/* inheritence
+select the footer html tag
+change the the color to pink  */
+footer {
+  color: pink;
+}
+
+/* 
+target the class casw
+change the back ground color to green */
+.casw  {
+  background-color: green;
+}
+
+/* target the number id 
+change the color to pink  */
+#number {
+  color: pink;
+}
+
+/* target the email ID 
+Change the color to dark grey  */
+#email {
+  color: darkgrey;
+}
+
+/* 
+target the socal class 
+change the background color to light blue  */
+.social {
+  background-color: lightblue;
+}
+
+/* 1. target the small html element 
+2. add the psuedo class of hover to the small html element 
+3. change the font size to 50 pixels */
+a:hover{
+  font-size: 50px;
+     }
+
+.about{
+  background-color: deeppink;
+}
+
+.about:hover{
+  background-color: #ffc2c2;
+} 
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ ul li {
+  display: inline-block; 
+} 
+
+li {
+  padding-right: 40px;
+}
+ 
